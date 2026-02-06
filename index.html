@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en" data-critters-container>
+<head>
+  <meta charset="utf-8">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Welcome to Online Notepad++, the fast and feature-rich online text editor. Write, save, and manage your notes effortlessly with a sleek and user-friendly interface.">
+  <meta name="keywords" content="online notepad, text editor, notes, writing, file management, cloud storage, fast notepad">
+  <meta name="author" content="Lawanya Chaudhari">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL to Avoid Duplicate Issues -->
+  <link rel="canonical" href="https://notepad.hung.pro.vn/">
+
+  <!-- Open Graph Meta Tags for Social Media Sharing -->
+  <meta property="og:title" content="Online Notepad++">
+  <meta property="og:description" content="A fast, easy-to-use online notepad for writing, saving, and managing your notes. Experience the best text editor with a simple interface.">
+  <meta property="og:url" content="https://notepad.hung.pro.vn">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Notepad++">
+  <meta name="twitter:description" content="Notepad Online 2026 By Hung Pro VN">
+  <meta name="twitter:image" content="https://www.notepadplusplus.in/assets/images/social-preview.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon?v=2">
+
+  <!-- Title -->
+  <title>Online Notepad++</title>
+  <base href="/">
+
+  <!-- Viewport for Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.notepadplusplus.in",
+    "name": "Online Notepad++",
+    "description": "Notepa Online By Hung Pro VN",
+    "publisher": {
+      "@type": "Lê Hùng",
+      "name": "Online Notepad++"
+    }
+  }
+  </script>
+
+  <!-- Monaco Editor Configuration -->
+  <script src="assets/monaco-editor/min/vs/loader.js"></script>
+  <script>
+    // Configure Monaco editor path
+    require.config({ paths: { 'vs': 'assets/monaco-editor/min/vs' } });
+
+    // Load Monaco editor and initialize it
+    require(['vs/editor/editor.main'], function () {
+      // Monaco editor is now available and can be used
+    });
+  </script>
+    <script>
+      const adKey = 'adsterra-last-shown';
+      const intervalInMinutes = 15;
+  
+      function shouldShowAd() {
+        const lastShown = localStorage.getItem(adKey);
+        const now = Date.now();
+        return !lastShown || (now - parseInt(lastShown)) > intervalInMinutes * 60 * 1000;
+      }
+  
+      function showAdsterraScript() {
+        const script = document.createElement('script');
+        script.src = '//pl26366610.profitableratecpm.com/fd/d3/22/fdd3226d25bbe397fea95e4bdf9f2a39.js';
+        script.type = 'text/javascript';
+        document.body.appendChild(script);
+        localStorage.setItem(adKey, Date.now().toString());
+      }
+  
+      if (shouldShowAd()) {
+        window.addEventListener('load', showAdsterraScript);
+      }
+    </script>
+<style>:root{--header-height:42px;--footer-height:24px;font-family:Consolas,Courier New,monospace!important}body{margin:0}</style><link rel="stylesheet" href="styles-AKIS6DGS.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-AKIS6DGS.css"></noscript></head>
+<body>
+  <app-root></app-root>
+<link rel="modulepreload" href="chunk-HYNBNQYC.js"><link rel="modulepreload" href="chunk-7NQWSWHW.js"><link rel="modulepreload" href="chunk-EJUJSVO6.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-4AUENZIQ.js" type="module"></script></body>
+</html>
